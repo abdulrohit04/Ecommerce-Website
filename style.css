@@ -514,3 +514,75 @@ body{
         align-items: start;
         }
 }
+
+
+/* contact */
+
+#poster{
+    background-image: url(/images/contact.jpg);
+    height: 35vh;
+    align-items: center;
+    padding: 25px 25px;
+}
+#poster h1{
+    color: blanchedalmond;
+    font-weight: 600;
+}
+
+#poster p{
+    color: #000;
+    font-weight: 400;
+}
+
+.pos{
+    text-align: center;
+}
+
+#touch li{
+    list-style: none;
+}
+#touch p{
+    font-size: x-large;
+    font-weight: 350;
+}
+#touch{
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#poster button a{
+    text-decoration: none;
+}
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-details form{
+     width: 65%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+#form-details form input{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form input.button{
+    width: 33.3%
+
+
+}
